@@ -12,8 +12,8 @@ namespace JosephusProblem
         [TestMethod()]
         public void GeneraNumeroDesobrevivientes()
         {
-            elResultadoEsperado = 23;
-            elresultadoObtenido = GeneraNumeroDeSobrevivientes.GeneraElNumeroDeSobrevivientes(1);
+            elResultadoEsperado = 1201;
+            elresultadoObtenido = GeneraNumeroDeSobrevivientes.GeneraElNumeroDeSobrevivientes(1624);
             Assert.AreEqual(elResultadoEsperado,elresultadoObtenido);
         }
     }
